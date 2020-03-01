@@ -1,0 +1,157 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+/* headings */
+h1,h2,h3{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.padding-7-15{
+    padding: 7% 15%;
+}
+.pink-colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.peach-colored-section{
+  background-color: #ef8172;
+color: #fff;
+}
+.white-colored-section{
+    background-color: #fff;
+}
+/* title section */
+#title {
+
+  text-align: left;
+}
+.container-fluid {
+  padding: 3% 12% 7%;
+}
+.big-heading-h-one{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+/* Download button */
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.dog-phone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 10%;
+  top: 40px;
+}
+
+/* features section */
+#features {
+  position: relative;
+}
+.dog-features-h-three {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.fas {
+  color: #ef8172;
+  padding: 10% 0;
+}
+.fas:hover {
+  color: #ff4c68;
+}
+.details {
+  color: #8f8f8f;
+}
+.col {
+  padding: 4%;
+}
+
+/* testimonals section */
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+#press {
+  padding-bottom: 3%;
+}
+.testimonial-brands {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+.carousel-indicators{
+margin: 3rem 0 1rem;
+}
+
+/* pricing section */
+.pricing-header {
+    max-width: 900px;
+    margin: 3rem 3rem 1rem 3rem;
+}
+.dogs-catagory-h-three{
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+.price-listing-h-two{
+  font-size: 2.5rem;
+}
+.yoho{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* cta section */
+#cta{
+  padding: 7% 20% 5%;
+}
+
+/* footer section */
+#footer{
+  padding: 5% 20%;
+}
+.footer-fab{
+  padding: 2rem 0.75rem;
+}
+.envelope{
+  color: black;
+}
+.envelope:hover{
+  color: black;
+}
+
+/* media section */
+@media (max-width:1150px) {
+#title{
+  text-align: center;
+}
+  .dog-phone{
+position: static;
+    transform: rotate(0);
+}
+.nav-link{
+  text-align: left;
+}
+}
